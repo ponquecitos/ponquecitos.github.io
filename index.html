@@ -13,50 +13,77 @@
     <meta property="og:description" content="Future-proof your search presence with senior-level technical audits and GEO strategy.">
     <meta property="og:url" content="https://diegoriveradiaz.com/">
 	<meta name="keywords" content="Technical SEO, GEO, Generative Engine Optimization, SEO Audit, Fractional SEO">    
-    <script type="application/ld+json">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
       "@type": "ProfessionalService",
+      "@id": "https://diegoriveradiaz.com/#organization",
       "name": "Diego Rivera-Díaz Consulting",
-      "image": "https://diegoriveradiaz.com/og-image.jpg", 
       "url": "https://diegoriveradiaz.com/",
+      "image": "https://diegoriveradiaz.com/og-image.jpg",
+      "sameAs": [
+        "https://linkedin.com/in/diegoriveradiaz",
+		"https://github.com/ponquecitos"
+      ],
       "address": {
         "@type": "PostalAddress",
         "addressCountry": "US"
+      }
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Technical SEO & GEO Consulting",
+      "provider": {
+        "@id": "https://diegoriveradiaz.com/#organization"
       },
-      "description": "Senior Technical SEO and GEO oversight for startups and established companies navigating the shift to AI-driven search.",
-      "founder": {
-        "@type": "Person",
-        "name": "Diego Rivera-Díaz"
-      },
-      "offers": [
-        {
-          "@type": "Offer",
-          "name": "Technical SEO & GEO Audit",
-          "price": "1500.00",
-          "priceCurrency": "USD"
-        },
-		{
-          "@type": "Offer",
-          "name": "Content & Semantic Audit",
-          "price": "1500.00",
-          "priceCurrency": "USD"
-        },
-		{
-          "@type": "Offer",
-          "name": "The Full Foundation Bundle",
-          "price": "2500.00",
-          "priceCurrency": "USD"
-        },
-        {
-          "@type": "Offer",
-          "name": "Strategy Consultation",
-          "price": "120.00",
-          "priceCurrency": "USD"
-        }
-      ]
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Consulting Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Technical SEO & GEO Audit"
+            },
+            "price": "1500.00",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Content & Semantic Audit"
+            },
+            "price": "1500.00",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "The Full Foundation Bundle"
+            },
+            "price": "2500.00",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "1-Hour Strategy Consultation"
+            },
+            "price": "120.00",
+            "priceCurrency": "USD"
+          }
+        ]
+      }
     }
-    </script>
+  ]
+}
+</script>
     <style>
         /* --- RESET & BASICS --- */
         :root {
@@ -354,4 +381,3 @@
 
 </body>
 </html>
-
