@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noindex">
+	<meta name="description" content="A man walked far and wide. He walked north, until north was south. He walked east past the sun, and was then west beneath the moon. Through sand and snow, river and sea, swamp and prairie, asphalt and concrete. Grass and grime. And after walking every place, he walked to no place at all. Still he walked, but never still. He walked so long he'd forgotten where he started. Where home was. Why he left. Now, all he knew was the walk. And now he was here, and here was no place. He wished to walk, but his legs wouldn't budge. Two trunks buried in molasses. He could no longer walk. This was, at last, his time of stillness. Unwanted and unwelcome, but not optional. Mandated. Enforced. Light itself wouldn't move, and darkness swallowed his calloused feet, and bathed his swollen frame. And so he wept warm tears, and he gasped for breath, and he shouted into the void. And then he shouted again. And again. He wailed until his throat was raw, and his mouth tasted like copper. And then he wailed some more. Finally he collapsed, nowhere to be found. His knees buckled and his back broke. He let himself be nowhere, for no protest was possible. The void poured in him. Through him. A myriad lives whispered in his ear. Countless tales of virtue and sin. Love and lovelessness. They stared at the world through the orbs in his face, and they changed him. He was forever changed. When he came to, he had no sense of time. Maybe hours had passed, maybe decades. It would never matter again. Then something - but not him, never again - lifted one leg, and then another. His body moved with a purpose of its own. It was the slowest pace he'd ever felt in his life. Steady and glacial. Time passed, he believed, though he had no way to measure it. And in due time, he realized where they were going. Where they were taking him. And he felt a voice that was distant and close, warm and raspy, cold and soft, wrong. It licked his face when it spoke, and every word clung to his skin, a sticky sweat. He tried to scream, but this too was taken. 'We're going home.'">
+    <title>404 - Not Found | Diego Rivera-Díaz</title>
+    <style>
+        :root {
+            --bg-color: #0a0a0a;
+            --text-main: #e0e0e0;
+            --text-muted: #a0a0a0;
+            --accent: #00ff9d;
+            --accent-glow: rgba(0, 255, 157, 0.2);
+            --gradient: linear-gradient(135deg, #00ff9d 0%, #00b8ff 100%);
+            --font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: var(--font-stack);
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container { max-width: 600px; width: 100%; }
+
+        .error-code {
+            font-size: clamp(6rem, 15vw, 10rem);
+            font-weight: 800;
+            line-height: 1;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+
+        h2 { margin-bottom: 30px; font-size: 1.5rem; color: #fff; }
+
+        /* The "Terminal" Look */
+        .terminal-box {
+            background: #111;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: left;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .cmd { color: var(--accent); margin-right: 10px; }
+        .log { color: var(--text-muted); display: block; margin-bottom: 8px; font-size: 0.9rem; }
+        .blink { animation: blink 1s infinite; }
+
+        @keyframes blink { 50% { opacity: 0; } }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: var(--gradient);
+            color: #000;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: transform 0.2s;
+        }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 0 20px var(--accent-glow); }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="error-code">404</h1>
+        <h2>URL Not Found</h2>
+
+        <div class="terminal-box">
+            <span class="log"><span class="cmd">></span> GET /current-page</span>
+            <span class="log"><span class="cmd">></span> HTTP/1.1 404 Not Found</span>
+            <span class="log"><span class="cmd">></span> Error: Resource missing from site structure.</span>
+            <span class="log"><span class="cmd">></span> Suggestion: Execute 301 to Homepage...<span class="blink">_</span></span>
+        </div>
+
+        <a href="https://diegoriveradiaz.com/" class="btn">Return to Homepage</a>
+    </div>
+
+</body>
+</html>
